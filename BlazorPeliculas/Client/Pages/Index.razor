@@ -1,7 +1,7 @@
 ﻿@page "/"
 
 <div>
-	<h3>Listado de Películas con Foreach</h3>
+	<h3>Listado de Películas con Foreach desde el equipo 2</h3>
 
 	@if(Peliculas is null)
 	{
@@ -37,8 +37,8 @@
 	protected override async Task OnInitializedAsync()
 	{
 		await Task.Delay(3000);
-		//Peliculas = ObtenerPeliculas();
-		Peliculas = new List<Pelicula>();
+		Peliculas = ObtenerPeliculas();
+		//Peliculas = new List<Pelicula>();
 
 	}
 
