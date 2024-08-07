@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = BlazorPeliculas.Shared
-build_property.ProjectDir = C:\Users\Limber\source\repos\BlazorPeliculas\BlazorPeliculas\BlazorPeliculas\Shared\
+build_property.ProjectDir = C:\Users\limbe\source\repos\BlazorPeliculas\BlazorPeliculas\Shared\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Limber\\.nuget\\packages\\": {}
+    "C:\\Users\\limbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
       "projectName": "BlazorPeliculas.Shared",
-      "projectPath": "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
-      "packagesPath": "C:\\Users\\Limber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\obj\\",
+      "projectPath": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
+      "packagesPath": "C:\\Users\\limbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Limber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\limbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
