@@ -1266,19 +1266,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\limbe\\.nuget\\packages\\": {}
+    "C:\\Users\\Limber\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj",
       "projectName": "BlazorPeliculas.Server",
-      "projectPath": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj",
-      "packagesPath": "C:\\Users\\limbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Server\\obj\\",
+      "projectPath": "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Server\\BlazorPeliculas.Server.csproj",
+      "packagesPath": "C:\\Users\\Limber\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\limbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Limber\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1293,11 +1293,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj": {
-              "projectPath": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj"
+            "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj": {
+              "projectPath": "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj"
             },
-            "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {
-              "projectPath": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj"
+            "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj": {
+              "projectPath": "C:\\Users\\Limber\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj"
             }
           }
         }
