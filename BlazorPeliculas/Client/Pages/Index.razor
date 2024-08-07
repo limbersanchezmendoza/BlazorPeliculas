@@ -1,0 +1,65 @@
+﻿@page "/"
+
+@* <div>
+	<h3>Película</h3>
+	<p>Título: <b>@WakandaForever.Titulo</b></p>
+	<p>Fecha de lanzamiento: @WakandaForever.FechaLanzamiento.ToString("dd MMM yyyy")</p>
+</div> *@
+
+<div>
+	<h3>Listado de Películas con Foreach</h3>
+	@foreach(var pelicula in ObtenerPeliculas())
+	{
+		<div>
+			<p>Titulo: <b>@pelicula.Titulo</b></p>
+			@if(DateTime.Today.Subtract(pelicula.FechaLanzamiento).Days <= 30)
+			{
+				<span style="color:red">(!NUEVO)</span>
+			}
+			<p>Fecha de lanzamiento: <b>@pelicula.FechaLanzamiento.ToString("dd MMM yyyy")</b></p>
+		</div>
+	}
+
+
+	
+</div>
+
+@* <div>
+	<h3>Listado de Películas con For</h3>
+	@for (int i=0; i < Peliculas.Count; i++ )
+	{
+		<div>
+			<p>@(i+1))Título: <b>@Peliculas[i].Titulo</b></p>
+			<p>Fecha lanzamiento: <b>@Peliculas[i].FechaLanzamiento.ToString("dd MMM yyyy")</b></p>
+		</div>
+	}
+</div> *@
+@code{
+
+	Pelicula WakandaForever { get { return ObtenerPelicula(); } }
+
+	List<Pelicula>? Peliculas { get; set; }
+
+
+
+	Pelicula ObtenerPelicula()
+	{
+		return new Pelicula
+			{
+				Titulo = "Wakanda Forever",
+				FechaLanzamiento = new DateTime(2022, 11, 11)
+			};
+	}
+
+	List<Pelicula> ObtenerPeliculas()
+	{
+		return new List<Pelicula>()
+		{
+			new Pelicula{Titulo = "Mi Villano FAvorito 4", FechaLanzamiento = new DateTime(2024,7,16)},
+			new Pelicula{Titulo = "Wakanda Forever", FechaLanzamiento = new DateTime(2022,11,11)},
+			new Pelicula{Titulo = "Moana", FechaLanzamiento = new DateTime(2016,11,23)},
+			new Pelicula{Titulo = "Inception", FechaLanzamiento = new DateTime(2010,7,16)}
+		};
+	}
+}
+
