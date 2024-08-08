@@ -1,56 +1,11 @@
 ﻿@page "/"
 
 <div>
-	<h3>Listado de Películas con Foreach desde el equipo 1</h3>
-
-	@if(Peliculas is null)
-	{
-		<img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif" alt="Carga" />
-	}
-	else if(Peliculas.Count == 0)
-	{
-		<p>No hay peliculas para mostrar</p>
-	}
-	else
-	{
-		@foreach (var pelicula in ObtenerPeliculas())
-		{
-			<div>
-				<p>Titulo: <b>@pelicula.Titulo</b></p>
-				@if (DateTime.Today.Subtract(pelicula.FechaLanzamiento).Days <= 30)
-				{
-					<span style="color:red">(!NUEVO)</span>
-				}
-				<p>Fecha de lanzamiento: <b>@pelicula.FechaLanzamiento.ToString("dd MMM yyyy")</b></p>
-			</div>
-		}
-	}	
-	
+	<h3>Películas</h3>
+	<ListadoPeliculas Peliculas="ObtenerPeliculas()"/>
 </div>
 
 @code{
-
-	Pelicula WakandaForever { get { return ObtenerPelicula(); } }
-
-	List<Pelicula>? Peliculas { get; set; }
-
-	protected override async Task OnInitializedAsync()
-	{
-		await Task.Delay(3000);
-		Peliculas = ObtenerPeliculas();
-		//Peliculas = new List<Pelicula>();
-
-	}
-
-	Pelicula ObtenerPelicula()
-	{
-		return new Pelicula
-			{
-				Titulo = "Wakanda Forever",
-				FechaLanzamiento = new DateTime(2022, 11, 11)
-			};
-	}
-
 	List<Pelicula> ObtenerPeliculas()
 	{
 		return new List<Pelicula>()

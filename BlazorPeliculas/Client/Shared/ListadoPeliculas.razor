@@ -1,5 +1,23 @@
-﻿<h3>ListadoPeliculas</h3>
-
+﻿
+@if (Peliculas is null)
+{
+	<img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif" alt="Carga" />
+}
+else if (Peliculas.Count == 0)
+{
+	<p>No hay peliculas para mostrar</p>
+}
+else
+{
+	@foreach (var pelicula in Peliculas)
+	{
+		<PeliculaIndividual Pelicula="pelicula"/>
+	}
+}
 @code {
+
+	[Parameter]
+	[EditorRequired]
+	public List<Pelicula>? Peliculas{ get; set; }
 	
 }
