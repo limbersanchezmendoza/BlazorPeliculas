@@ -4,8 +4,18 @@
 	<h3>Películas</h3>
 	<ListadoPeliculas Peliculas="ObtenerPeliculas()"/>
 </div>
+<div>
+	<EjemploTextbox placeholder="placeholder index" />
+</div>
 
 @code{
+
+	private Dictionary<string, object> EjemploTextboxParametros = new Dictionary<string, object>()
+									{
+										{"placeholder", "nuevo placeholder"},
+										{"disabled", "true"}
+									};
+
 	List<Pelicula> ObtenerPeliculas()
 	{
 		return new List<Pelicula>()

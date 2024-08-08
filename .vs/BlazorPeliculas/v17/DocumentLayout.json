@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|c:\\users\\limbe\\source\\repos\\blazorpeliculas\\blazorpeliculas\\client\\shared\\ejemplotextbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|solutionrelative:blazorpeliculas\\client\\shared\\ejemplotextbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|c:\\users\\limbe\\source\\repos\\blazorpeliculas\\blazorpeliculas\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|solutionrelative:blazorpeliculas\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|c:\\users\\limbe\\source\\repos\\blazorpeliculas\\blazorpeliculas\\client\\utilidades\\utilidadesstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|solutionrelative:blazorpeliculas\\client\\utilidades\\utilidadesstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15783CEE-55DD-4C94-A89F-A00FA92E16A4}|BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj|c:\\users\\limbe\\source\\repos\\blazorpeliculas\\blazorpeliculas\\shared\\entidades\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15783CEE-55DD-4C94-A89F-A00FA92E16A4}|BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj|solutionrelative:blazorpeliculas\\shared\\entidades\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|c:\\users\\limbe\\source\\repos\\blazorpeliculas\\blazorpeliculas\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|solutionrelative:blazorpeliculas\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E13DFD88-FC1A-49BE-B0E8-CBD66C931F18}|BlazorPeliculas\\Client\\BlazorPeliculas.Client.csproj|c:\\users\\limbe\\source\\repos\\blazorpeliculas\\blazorpeliculas\\client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "EjemploTextbox.razor",
+              "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Shared\\EjemploTextbox.razor",
+              "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Shared\\EjemploTextbox.razor",
+              "ToolTip": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Shared\\EjemploTextbox.razor",
+              "RelativeToolTip": "BlazorPeliculas\\Client\\Shared\\EjemploTextbox.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T13:49:31.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorPeliculas\\Client\\Pages\\Index.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T20:18:48.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PeliculaIndividual.razor",
               "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Shared\\PeliculaIndividual.razor",
               "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Shared\\PeliculaIndividual.razor",
@@ -50,12 +80,11 @@
               "RelativeToolTip": "BlazorPeliculas\\Client\\Shared\\PeliculaIndividual.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T02:34:19.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T02:34:19.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ListadoPeliculas.razor",
               "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Shared\\ListadoPeliculas.razor",
               "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Shared\\ListadoPeliculas.razor",
@@ -63,12 +92,11 @@
               "RelativeToolTip": "BlazorPeliculas\\Client\\Shared\\ListadoPeliculas.razor",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-03T02:18:57.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T02:18:57.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Pages\\Counter.razor",
@@ -76,25 +104,11 @@
               "RelativeToolTip": "BlazorPeliculas\\Client\\Pages\\Counter.razor",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T01:48:58.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T01:48:58.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Pages\\Index.razor",
-              "RelativeToolTip": "BlazorPeliculas\\Client\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T20:18:48.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Pelicula.cs",
               "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Shared\\Entidades\\Pelicula.cs",
               "RelativeDocumentMoniker": "BlazorPeliculas\\Shared\\Entidades\\Pelicula.cs",
@@ -102,12 +116,11 @@
               "RelativeToolTip": "BlazorPeliculas\\Shared\\Entidades\\Pelicula.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAUwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:28:57.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T20:28:57.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\_Imports.razor",
@@ -115,12 +128,11 @@
               "RelativeToolTip": "BlazorPeliculas\\Client\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T20:23:05.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T20:23:05.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UtilidadesString.cs",
               "DocumentMoniker": "C:\\Users\\limbe\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Client\\Utilidades\\UtilidadesString.cs",
               "RelativeDocumentMoniker": "BlazorPeliculas\\Client\\Utilidades\\UtilidadesString.cs",
